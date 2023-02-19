@@ -1,10 +1,10 @@
-package ru.company.sparkdata.model;
+package ru.company.sparkdata.app.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ru.company.sparkdata.annotation.Source;
+import ru.company.sparkdata.starter.annotation.Source;
 
 @Data
 @Builder

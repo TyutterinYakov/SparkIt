@@ -1,4 +1,4 @@
-package ru.company.sparkdata.handler;
+package ru.company.sparkdata.starter.handler;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;

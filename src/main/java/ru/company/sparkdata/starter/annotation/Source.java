@@ -1,4 +1,4 @@
-package ru.company.sparkdata.annotation;
+package ru.company.sparkdata.starter.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
