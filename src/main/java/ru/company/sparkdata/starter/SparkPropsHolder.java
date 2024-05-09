@@ -1,16 +1,13 @@
 package ru.company.sparkdata.starter;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 @ConfigurationProperties(prefix = "spark")
-@Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
+@Setter
+@Getter
+@Component
 public class SparkPropsHolder {
     private String appName;
     private String packagesToScan;
